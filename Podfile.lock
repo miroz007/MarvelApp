@@ -1,0 +1,110 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Differentiator (4.0.1)
+  - DynamicBlurView (4.1.0)
+  - FSPagerView (0.8.3)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/Kingfisher (1.9.2):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KeychainSwift (19.0.0)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - NVActivityIndicatorView/Extended (5.1.1):
+    - NVActivityIndicatorView/Base
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Presentr (1.9)
+  - RxAlamofire (5.7.1):
+    - RxAlamofire/Core (= 5.7.1)
+  - RxAlamofire/Core (5.7.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxCoreData (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - UILoadControl (2.1.0)
+  - UIRefresher (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FSPagerView
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift
+  - KeychainSwift
+  - NVActivityIndicatorView/Extended
+  - PopupDialog
+  - Presentr
+  - RxAlamofire
+  - RxCocoa
+  - RxCoreData
+  - RxDataSources
+  - RxGesture
+  - RxSwift
+  - UILoadControl
+  - UIRefresher
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - DynamicBlurView
+    - FSPagerView
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PopupDialog
+    - Presentr
+    - RxAlamofire
+    - RxCocoa
+    - RxCoreData
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - UILoadControl
+    - UIRefresher
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  RxAlamofire: 8e144c62dcc01d68dcb366bfc542eb6dd46bab78
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxCoreData: 1ed5f83e80facccc90fc054eb7f39a44177de56a
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  UILoadControl: e742ddbe4c67ba1f13b00b7d462d4141307d021f
+  UIRefresher: a8cecbcce6f4e8db7c928dcaa1777d976f835c2a
+
+PODFILE CHECKSUM: 7ce607924305327bc59eddfae071e54d1e64243e
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeCell" rowHeight="197" id="KGk-i7-Jjw" customClass="HomeCell" customModule="MarvelApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="197"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="197"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3733100-marvel's-avengers-review-promothumb" translatesAutoresizingMaskIntoConstraints="NO" id="AiB-gD-UzR">
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="e0A-Wf-h7i"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFA-tL-xFo">
+                        <rect key="frame" x="30" y="140" width="160" height="35"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-cell-title" translatesAutoresizingMaskIntoConstraints="NO" id="i0n-bw-O33">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="35"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XGS-2u-d4O">
+                                <rect key="frame" x="20" y="0.0" width="120" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i0n-bw-O33" firstAttribute="leading" secondItem="fFA-tL-xFo" secondAttribute="leading" id="6pk-8b-xPx"/>
+                            <constraint firstAttribute="height" constant="35" id="81m-S2-WzD"/>
+                            <constraint firstItem="i0n-bw-O33" firstAttribute="top" secondItem="fFA-tL-xFo" secondAttribute="top" id="8LR-sm-2Ap"/>
+                            <constraint firstItem="XGS-2u-d4O" firstAttribute="leading" secondItem="fFA-tL-xFo" secondAttribute="leading" constant="20" id="OQC-SR-8eP"/>
+                            <constraint firstAttribute="bottom" secondItem="XGS-2u-d4O" secondAttribute="bottom" id="VHu-Kl-wrK"/>
+                            <constraint firstItem="XGS-2u-d4O" firstAttribute="top" secondItem="fFA-tL-xFo" secondAttribute="top" id="ewT-rS-nMP"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="kFR-NL-coR"/>
+                            <constraint firstAttribute="trailing" secondItem="i0n-bw-O33" secondAttribute="trailing" id="wYP-6l-YHQ"/>
+                            <constraint firstAttribute="trailing" secondItem="XGS-2u-d4O" secondAttribute="trailing" constant="20" id="xAO-Xh-oRw"/>
+                            <constraint firstAttribute="bottom" secondItem="i0n-bw-O33" secondAttribute="bottom" id="yB0-S8-r4u"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fFA-tL-xFo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="4Sg-yU-sNo"/>
+                    <constraint firstItem="fFA-tL-xFo" firstAttribute="bottom" secondItem="AiB-gD-UzR" secondAttribute="bottom" constant="-25" id="8r9-9q-sTw"/>
+                    <constraint firstAttribute="trailing" secondItem="AiB-gD-UzR" secondAttribute="trailing" id="b1C-w7-4uB"/>
+                    <constraint firstItem="AiB-gD-UzR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="biC-4w-YQF"/>
+                    <constraint firstAttribute="bottom" secondItem="AiB-gD-UzR" secondAttribute="bottom" id="qpI-OU-XWf"/>
+                    <constraint firstItem="AiB-gD-UzR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ysv-Tb-7cS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieImg" destination="AiB-gD-UzR" id="qnP-fs-mwG"/>
+                <outlet property="movieTitle" destination="XGS-2u-d4O" id="bUW-ak-xMb"/>
+            </connections>
+            <point key="canvasLocation" x="192.75362318840581" y="161.71875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="3733100-marvel's-avengers-review-promothumb" width="1280" height="720"/>
+        <image name="bg-cell-title" width="160" height="36"/>
+    </resources>
+</document>
